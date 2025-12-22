@@ -201,7 +201,7 @@ const Portfolio = () => {
               boxShadow: '0 25px 80px rgba(0,0,0,0.12)'
             }}>
               { <img 
-                src="public/aks.jpeg" 
+                src="./aks.jpeg" 
                 alt="Akshatt Kain"
                 style={{
                   width: '100%',
