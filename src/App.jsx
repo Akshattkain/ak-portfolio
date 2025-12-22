@@ -22,7 +22,7 @@ const Portfolio = () => {
   const handleResumeDownload = () => {
     // Option 1: If resume is in public folder, use this:
     const link = document.createElement('a');
-    link.href = '/AkshattKain_Resume.pdf'; // Place your PDF in the public folder
+    link.href = './AkshattKain_Resume.pdf'; // Place your PDF in the public folder
     link.download = 'AkshattKain_Resume.pdf';
     link.click();
     
