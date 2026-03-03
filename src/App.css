@@ -296,6 +296,7 @@ a {
   animation: fadeInUp 0.8s 0.9s forwards;
   position: relative;
   z-index: 10;
+  margin-bottom: 6rem;
 }
 
 .stat {
