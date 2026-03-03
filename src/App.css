@@ -294,6 +294,8 @@ a {
   gap: 4rem;
   opacity: 0;
   animation: fadeInUp 0.8s 0.9s forwards;
+  position: relative;
+  z-index: 10;
 }
 
 .stat {
@@ -317,7 +319,7 @@ a {
 
 .scroll-indicator {
   position: absolute;
-  bottom: 3rem;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
